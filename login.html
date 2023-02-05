@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="box">
+       
+        <h2>Login</h2>
+        <form action="success.html">
+        <label for="email"><input type="email" name="" id="email" onkeyup="validateMail()" placeholder="Email Id"></label><br>
+        <span id="email-error"></span><br><br>
+        <label for="password"><input type="password" name="" id="password" onkeyup="validatePassword()" placeholder="Password"> </label><br>
+        <span id="password-error"></span><br>
+        <button onclick = "return validateForms()" type="submit" id="signup" >Log In</button>
+        </form>
+        <h5>Forgot Password?</h5>
+        <br>
+
+        
+        <div class="last">
+            <h6>Not have an account?</h6> 
+            <a style="color: darkblue;" href="signup.html">SignUp here</a>
+        </div>
+        
+  
+     </div>
+     <div class="navi">
+        <a href="index.html" class="button">Back to Home Page</a>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+.head h1{
+    text-align: center; 
+    background-color: green;
+    color: beige;
+}
+#logo{
+    height: 75px;
+    width: 75px;
+    float: left;
+    margin: 6px 0px 0px 10px ;
+}
+span{
+    font-size: 77px;
+    font-family: emoji;
+}
+h2{
+    text-align: center;
+    
+}
+p{
+    margin: 0px 35px 0px 35px;
+    font-style: italic;
+    font-family: auto;
+    font-size: large;
+    color: darkgreen;
+}
+.navi a{
+    background-color: lightgreen;
+    border: none;
+    color: darkgreen;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.navi a:hover {
+    color: white;
+    background-color:green;
+}
+.card img:hover {
+
+  transform: scale(1.2); 
+  z-index: +1;
+  transition: transform .3s;
+  opacity: 1;
+  
+ }
+
+ .navi{
+    text-align: center;
+ }
+.card img{
+    opacity: .94;
+}
+h5{ 
+    color: darkred !important;
+    font-family: serif;
+    font-style: italic;
+}
+h2{
+    color: darkgreen !important;
+    font-family: cursive;
+}

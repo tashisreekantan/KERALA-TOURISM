@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+body{
+    /* background-image:url('image1.jpg');  */
+    background-size: cover;
+}
+header{
+    background-color: green;
+    color: rgb(251, 251, 177);
+    font-size: 3px;
+    }
+.nav-item a:hover{
+     background-color: rgb(50, 112, 6);
+    color: rgb(219, 219, 15)  !important;
+}  
+.link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid white;
+}      
+.navbar{
+    background-color: rgb(6, 144, 6);
+    font-family: serif;
+    font-size: larger;
+}
+.collapse h4{
+    font-size: 30px;
+    color: rgb(0, 255, 183);
+    margin: 0px 0px 0px 55px ;
+    font-family: none;
+}
+.collapse{
+    background-color: green;
+}
+.carousel-item img{
+    
+    height: 70%; 
+}
+h1{
+    color: teal !important;
+    text-align: center;
+    padding-top: 35px;
+    letter-spacing: -1px;
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,59 @@
+.head h1{
+    color: blanchedalmond;
+    margin: -56px 0px 0px 77px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:green;
+  }
+  
+  li {
+    float: right;
+    font-size: 65;
+  } 
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+#logo{
+    align-items: flex-end;
+}
+.carousel-item p{
+    color:yellow;
+}
+
+.carousel-item h1{
+    color: cornsilk;
+}
+.navi a{
+    background-color:lightgreen;
+    border: none;
+    color: darkgreen;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+  .navi a:hover {
+    color: white;
+    background-color:green;
+  }
+  .navi{
+    transition: transform .2s;
+   
+    margin: 0 auto;
+  }
+  .navi{
+    text-align: center;
+ }

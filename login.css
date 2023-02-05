@@ -1,0 +1,73 @@
+
+body{
+    background-image:url('texture4.jpg');
+}
+.box{
+    color:  rgb(54, 3, 3);
+    font-family: sans-serif;
+    text-align: center;
+    border: 1px solid;
+    width: 300px;
+    border-style: double;
+    background-image: url('texture1.jpg');
+    border: 1px solid;
+    width: 400px;
+    border-radius: 25px;
+    margin: 15px 0px 0px 400px;
+}
+input{
+    border-radius: 5px; 
+    font-size: large;
+    padding: 5px 10px 5px 10px;
+}
+#signup{
+    
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    /* margin-bottom: 20px; */
+}
+h2{
+    padding-top: 40px;
+}
+h4{
+    margin-right: 160px;
+}
+h6{
+    text-align: justify;
+    margin: 0px 80px;
+    color: black;
+
+}
+.navi a{
+    color: rgb(240, 177, 177);
+    border: none;
+    background-color: rgb(85, 11, 1);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.navi a:hover {
+    background-color: rgb(240, 177, 177);
+    color:rgb(85, 11, 1);
+}
+h5{
+    font-family: monospace;
+}
+.last{
+    padding-bottom: 25px;
+}
+span{
+    color: red;
+    font-family: monospace;
+}
+span > span{
+    color: green;
+    font-family: monospace;
+}

@@ -1,0 +1,29 @@
+body{
+    background-image: url('texturecontact.jpg');
+}
+.heading{
+    text-align: center;
+    font-family:cursive;
+    padding-top: 30px;
+    color: azure;
+}
+h6{
+    font-family: monospace;
+}
+.navi a{
+    background-color: rgba(23, 23, 97, 0.74);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.navi a:hover {
+    color: darkblue;
+    background-color:rgb(232, 233, 238);
+}
